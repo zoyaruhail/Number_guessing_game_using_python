@@ -8,7 +8,7 @@ def guessing():
             menu = int(input("Menu \n1. Start \n2. exit\nChoose from the Menu: "))
             if menu == 1:
                 while True:
-                    num = random.randint(0,11)
+                    num = random.randint(0,10)
                     num1 = int(input("Guess the number from 0 - 10: "))
                     if num == num1:
                         score += 1
