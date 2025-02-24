@@ -13,11 +13,11 @@ def guessing():
                     if num == num1:
                         score += 1
                         comp_score += 0
-                        print(f"Wohooooo! Correct Guess you got a score!\nYour Score = {score} || Computer Score = {comp_score}")
+                        print(f"Wohooooo! Correct Guess you got a score!\n Your guess: {num1} || Computer Guess: {num}\nYour Score = {score} || Computer Score = {comp_score}")
                     else:
                         score += 0
                         comp_score += 1
-                        print(f"Oppsie! Better luck next time :( Computer gets the score!\nYour Score = {score} || Computer Score = {comp_score}")
+                        print(f"Oppsie! Better luck next time :( Computer gets the score!\n Your guess: {num1} || Computer Guess: {num}\nYour Score = {score} || Computer Score = {comp_score}")
                     again = input("Do you want to play again?? (y/n): ").lower()
                     if again != 'y':
                         break
